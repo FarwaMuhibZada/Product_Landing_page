@@ -71,14 +71,14 @@ git clone https://github.com/FarwaMuhibZada/Product_Landing_page.git
 go to the githu directory:
 ```bash
 
-cd>Technical_Documentation _Page
+cd>Product_Landing_Page
 
 ```
 open the project on your IDE like vscode :
 
 ```bash
 
-cd>Technical_Documentation _Page> code .
+cd>Product_Landing_Page> code .
 
 ```
 
