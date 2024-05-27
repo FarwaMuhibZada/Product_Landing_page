@@ -1,6 +1,5 @@
 :root {
   --main-color:#2796ca;
-
 }
 
 * {
@@ -8,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #header {
   width: 100%;
   display: flex;
@@ -75,7 +75,6 @@ p {
   align-items: center;
   justify-content: center;
   padding: 50px;
-
 }
 
 .card-wraper {
@@ -126,9 +125,8 @@ footer {
 
 }
 
-.left-side {
+.right-side {
   align-self: flex-end;
-
 }
 
 #email {
@@ -149,7 +147,6 @@ footer {
   color: white;
   border-radius: 10px;
   border: none;
-
 }
 
 @media (max-width: 800px) {
@@ -162,17 +159,23 @@ footer {
   }
 
   .card-wraper {
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
   }
+
   .card {
     width: 100%;
-    margin-top: 100px;
-    
+    margin-top: 100px; 
   }
 
   footer {
-    fl
-
+    flex-wrap: wrap;
+    margin-bottom: 30px;
   }
+  .right-side {
+    width: 100%;
+  }
+
+  .left-side {
+    display: none;
+  } 
 }
