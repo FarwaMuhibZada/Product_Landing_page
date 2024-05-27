@@ -7,27 +7,36 @@
 
 
 ```css
-@media(max-width: 750px) {
-  body{
-    flex-direction: column;
+
+@media (max-width: 800px) {
+  #header {
+    flex-wrap: wrap;
   }
 
-  #main-doc {
-    width: 100%;
-    position: relative;
-    top :600px;
-    left :0;
+  #nav-bar {
+    display: none;
   }
 
-  #navbar {
+  .card-wraper {
+    flex-wrap: wrap; 
+  }
+
+  .card {
     width: 100%;
+    margin-top: 100px; 
+  }
+
+  footer {
+    flex-wrap: wrap;
     margin-bottom: 30px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
+  }
+  .right-side {
+    width: 100%;
   }
 
+  .left-side {
+    display: none;
+  } 
 }
 
 ```
@@ -38,7 +47,13 @@
 
 here is a demo of Product Landing Page .
 
-![Demo](Capture.PNG)
+![first page](./images/Capture2.PNG)
+
+![second page](./images/Capture3.PNG)
+
+Product landing page in small screen size
+
+![small screen size](./images/responsive.PNG)
 
 ## Technologies Used 🛠️
 
