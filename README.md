@@ -44,6 +44,8 @@
 
 
 ## Demo 📸
+here you can see live demo of product_landing_page
+![here](https://farwamuhibzada.github.io/Product_Landing_page/)
 
 here is a demo of Product Landing Page .
 
