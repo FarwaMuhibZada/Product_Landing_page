@@ -45,10 +45,6 @@
 
 ## Demo 📸
 
-here is live demo of Product Landing Page .
-live demo : [()]
-
-
 here is a demo of Product Landing Page .
 
 ![first page](./images/Capture2.PNG)
